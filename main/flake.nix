@@ -11,7 +11,6 @@
   inputs.src-nobject-main.ref   = "refs/heads/main";
   inputs.src-nobject-main.owner = "Carpall";
   inputs.src-nobject-main.repo  = "nobject";
-  inputs.src-nobject-main.dir   = "";
   inputs.src-nobject-main.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
